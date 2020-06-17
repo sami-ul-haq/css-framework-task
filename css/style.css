@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav i , nav img{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav-bar{
+    background-color: #ffffff;
+}
+
+.fa-bars:hover{
+    color: #ffffff;
+    background-color: #8C6D2D;
+}
+
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item{
+    position: relative;
+}
+
+
+.carousel-item .card{
+    color: #000000;
+    background-color: #ffffff;
+    width: 40vw;
+    height: 55vh;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50% , -50%);
+}
+
+.btn-slider{
+    color: #1C5155;
+    border: 2px solid #1C5155;
+    background-color: transparent;
+    padding: 1em 2em;
+}
+
+.btn-slider:hover{
+    color: #ffffff;
+    background-color: #1C5155;
+
+}
+
+.card-hover:hover{
+    background-color: #F9F3E7;
+    transition: background-color 2s;
+}
+
+.services{
+    background-color: #F8F5ED;
+}
+
+.a-link{
+    cursor: pointer;
+    text-decoration: none;
+    color: #1C5970;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.a-link:hover{
+    color: #1C5970;
+    text-decoration: none;
+}
+
+.i-color{
+    color: #CE7B77;
+}
+
+.services-container img{
+   position: relative;
+
+}
+
+
+
+.services-div{
+    position: relative;
+}
+
+.services-div .div-inside{
+    width: 20vw;
+    position: absolute;
+    background-color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -20%);
+    
+ }
+
+ @media screen and (max-width:576px){
+    .services-div .div-inside{
+        width: 10vw;
+        position: absolute;
+        background-color: #ffffff;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -20%);
+        
+     } 
+ }
+
+ .arminities img{
+     color: #6E9496;
+     max-width: 100%;
+     height: 10vh;
+ }
+
+
+ .b-link{
+    color: #1C5155;
+    border: 2px solid #1C5155;
+    background-color: transparent;
+    padding: 1em 2em;
+ }
+
+ .b-link:hover{
+    color: #ffffff;
+    background-color: #1C5970;
+}
+
+.footer-1{
+    color: #ffffff;
+    background-color: #1f1707;
+}
+
+.footer-1 ul li a, .footer-1 p{
+    color: #787F73;
+}
+
+.footer-1 ul li {
+    margin: 10px 0px;
+}
+
+.footer-1 i{
+    margin-right: 10px;
+}
+
+.btn-submit{
+    color: #8C6D2D;
+    background-color: transparent;
+    border: 2px solid #8C6D2D;
+}
+
+.btn-submit:hover{
+    color: #ffffff;
+    background-color: #8C6D2D;
+}
+
+input[type="text"]
+{
+    background-color: #262013;
+    border: 1px solid #262013;
+}
